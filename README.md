@@ -1,4 +1,4 @@
-# Animation Sketch
+# Hero4Hire Animation Sketch
 
 ![Anim Sketch Demo](/images/demo.gif?raw=true "Optional Title")
 
@@ -15,7 +15,7 @@ While other free tools exist elsewhere at the time, we were unable to find a mot
 This tool was built without compromise and performs as one would expect.
 
 ## Usage
-There are two main functions of the tool. **Record Position** and *Record Channel**. 
+There are two main functions of the tool. **Record Position** and **Record Channel**. 
 
 **Record Position** will use drag input to offset the world space position of the target. This is a 1:1 transfer, the target will move in the scene the exact amount dragged in screenspace.
 
@@ -26,7 +26,7 @@ The **Simplify Curves** checkbox will apply a simplify filter on the curves afte
 ## Installation
 
 1. Download a .zip of the project and extract the 'h4h_animSketch' folder to you maya scripts directory
-2. Open the python script editor and run this:
+2. Open the python script editor in Maya and run this:
 
 ```
 from h4h_animSketch import h4h_animSketch_maya
