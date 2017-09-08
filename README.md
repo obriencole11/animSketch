@@ -15,18 +15,23 @@ While other free tools exist elsewhere at the time, we were unable to find a mot
 This tool was built without compromise and performs as one would expect.
 
 ## Usage
-There are two main functions of the tool. *Record Position* and *Record Channel*. 
+There are two main functions of the tool. **Record Position** and **Record Channel**. 
 
-*Record Position* will use drag input to offset the world space position of the target. This is a 1:1 transfer, the target will move in the scene the exact amount dragged in screenspace.
+**Record Position** will use drag input to offset the world space position of the target. This is a 1:1 transfer, the target will move in the scene the exact amount dragged in screenspace.
 
-*Record Channel* will use drag input to offset a selected channel in the channel box. A *Sensitivity* setting determines the ratio of change between the two. There are settings to change the drag direction as well as a setting to invert the direction if needed.
+**Record Channel** will use drag input to offset a selected channel in the channel box. A **Sensitivity** setting determines the ratio of change between the two. There are settings to change the drag direction as well as a setting to invert the direction if needed.
 
-The *Simplify Curves* checkbox will apply a simplify filter on the curves after recording. The *Simplify Tolerance* setting will determine the how simplified the curves will be.
+The **Simplify Curves** checkbox will apply a simplify filter on the curves after recording. The **Simplify Tolerance** setting will determine the how simplified the curves will be.
 
 ## Installation
 
+<<<<<<< HEAD
 1. Download a .zip of the project and extract the 'animSketch' folder to you maya scripts directory
 2. Open the python script editor and run this:
+=======
+1. Download a .zip of the project and extract the 'h4h_animSketch' folder to you maya scripts directory
+2. Open the python script editor in Maya and run this:
+>>>>>>> origin/master
 
 ```
 from animSketch import animSketch_maya
