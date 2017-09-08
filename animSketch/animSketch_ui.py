@@ -15,7 +15,7 @@ class animSketchWindow(QtWidgets.QMainWindow):
 
         #### General Window Setup
 
-        self.setWindowTitle('Hero4Hire Animation Sketch')
+        self.setWindowTitle('Anim Sketch')
 
         self.mainWidget = QtWidgets.QWidget(self)
         self.setCentralWidget(self.mainWidget)

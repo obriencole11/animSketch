@@ -1,6 +1,6 @@
-# Hero4Hire Animation Sketch
+# Animation Sketch
 
-![Anim Sketch Demo](/images/demo.gif?raw=true "Optional Title")
+![Anim Sketch Demo](/images/demo.gif?raw=true)
 
 Anim Sketch is a motion recording tool that allows for quick and inuitive animation creation through direct user input. The tool is functionally similar to motion sketch in Adobe After Effects and supports direct positon recording as well as channel box recording. 
 
@@ -25,12 +25,12 @@ The *Simplify Curves* checkbox will apply a simplify filter on the curves after 
 
 ## Installation
 
-1. Download a .zip of the project and extract the 'h4h_animSketch' folder to you maya scripts directory
+1. Download a .zip of the project and extract the 'animSketch' folder to you maya scripts directory
 2. Open the python script editor and run this:
 
 ```
-from h4h_animSketch import h4h_animSketch_maya
-h4h_animSketch_maya.load()
+from animSketch import animSketch_maya
+animSketch_maya.load()
 ```
 
 ## License

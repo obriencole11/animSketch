@@ -2,8 +2,8 @@ from .vendor import Qt
 from .vendor.Qt import QtWidgets, QtCore
 from .vendor.Qt.QtCore import Slot
 import maya.OpenMayaUI as omUI
-import h4h_animSketch_ui as ui
-import h4h_animSketch
+import animSketch_ui as ui
+import animSketch
 import pymel.core as pmc
 import logging
 
@@ -58,7 +58,7 @@ def load():
 
         window = ui.animSketchWindow(mayaWindow, QtCore.Qt.Tool)
 
-        tool = h4h_animSketch.animSketchTool()
+        tool = animSketch.animSketchTool()
         window.onRecord.connect(createTool)
 
     # Show the window
