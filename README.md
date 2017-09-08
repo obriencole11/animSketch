@@ -1,4 +1,4 @@
-# Hero4Hire Animation Sketch
+# Animation Sketch
 
 ![Anim Sketch Demo](/images/demo.gif?raw=true "Optional Title")
 
