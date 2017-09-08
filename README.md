@@ -8,7 +8,7 @@ Originally built for a commercial project at [Hero4Hire Creative](http://www.her
 
 ## Origin
 
-While other free tools exist elsewhere at the time, we were unable to find a motion sketching solution that was functionally complete and did not accept compromises. The two main issues we found with most tools were:
+While other free tools existed elsewhere at the time, we were unable to find a motion sketching solution that was functionally complete and did not accept compromises. The two main issues we found with most tools were:
 * It was unable to record stationary input. This was vital to recording a believable performance with natural pauses.
 * It did not support undo on a per-recording basis. Some tools made use of Maya's built in `recordAttr()` function, however this does not support native undoing and was a dealbreaker for recording anything of considerable length.
 
@@ -25,13 +25,8 @@ The **Simplify Curves** checkbox will apply a simplify filter on the curves afte
 
 ## Installation
 
-<<<<<<< HEAD
 1. Download a .zip of the project and extract the 'animSketch' folder to you maya scripts directory
 2. Open the python script editor and run this:
-=======
-1. Download a .zip of the project and extract the 'h4h_animSketch' folder to you maya scripts directory
-2. Open the python script editor in Maya and run this:
->>>>>>> origin/master
 
 ```
 from animSketch import animSketch_maya
